@@ -1,0 +1,48 @@
+.form__input{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 360px;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 60px;
+    color: black;
+    outline: none;
+    padding: 1.25rem;
+    background: none;
+}
+.form__input1{
+    position: relative;
+    top: 120px;
+    left: 100px;
+    width: 360px;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 60px;
+    color: black;
+    outline: none;
+    padding: 1.25rem;
+    background: none;
+}
+.form__input2{
+    position: relative;
+    top: 80px;
+    left: 100px;
+    width: 360px;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 60px;
+    color: black;
+    outline: none;
+    padding: 1.25rem;
+    background: none;
+}
+::placeholder {
+    font-size: 24px;
+}

@@ -1,0 +1,684 @@
+
+::-webkit-scrollbar {
+    display: none;
+}
+.center-up-anim {
+    width: 600px;
+    height: 600px;
+}
+.rectangle-send {
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    background: white;
+    z-index: 1000;
+    top: 550px;
+    left: 210px;
+    border-radius: 0px 100px 100px 0px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    animation: background 3s infinite alternate;
+    transition: left .2s ease-in-out;
+}
+.rectangle-send:hover {
+    left: 220px;
+}
+@keyframes background {
+    50% {
+      background: skyblue;
+      box-shadow: 0 -200px 100px -100px rgb(204, 230, 154) inset;
+    }
+  }
+.rectangle-send h4 {
+    position: absolute;
+    left: 15px;
+    top: 18px;
+}
+.rectangle-send .arrow {
+    position: relative;
+    top: 20px;
+    left: 230px;
+    z-index: 1000;
+    width: 30px;
+}
+
+
+/* card 1 */
+.cardimg1 {
+
+    position: absolute;
+    left: 1300px;
+    top: 280px;
+    z-index: 11;
+
+    background: url(card.png);
+    filter: drop-shadow(-5px 6px 24px rgba(0, 0, 0, 0.5));
+    animation: card 4s infinite linear;
+}
+@keyframes card {
+    25% {top: 260px;}
+    50% {top: 280px;}
+    75% {top: 260px;}
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.header_logo {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+/* wave. up + wave. down */
+.header_logo1 {
+    position: absolute;
+    left: 211px;
+    top: 39px;
+    
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 88px;
+    color: black;
+}
+.header_logo2 {
+    z-index: 11;
+    position: absolute;
+    left: 211px;
+    top: 2872px;
+    
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 88px;
+    color: black;
+}
+
+.icon {
+    z-index: 100;
+}
+
+/* Плитка верхний слой */    
+.up {
+    background: #DDDED1;
+    width: 1920px;
+    height: 167px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 4px 60px black;
+}
+
+/* Плитка верхний слой 2 */
+.center-up {
+    background-color: #CBC2BB;
+    position: absolute;
+    width: 1920px;
+    height: 800px;
+    left: 0px;
+    top: 167px;
+    background: linear-gradient(180deg, #CBC2BB 0%, #303030 100%);
+}
+
+article p:first-child {
+    position: absolute;
+    width: 736px;
+    height: 80px;
+    left: 210px;
+    top: 180px;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 78px;
+
+    color: #000000;
+}
+article p:last-child {
+    position: absolute;
+    width: 723px;
+    height: 250px;
+    left: 210px;
+    top: 280px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+/* wave полупрозрачная */
+.wave-text1 {
+    position: absolute;
+    width: 911px;
+    height: 345px;
+    left: 89px;
+    top: 27px;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 300px;
+    line-height: 276px;
+    color: rgba(0, 0, 0, 0.1);
+}
+.wave-text2 {
+    position: absolute;
+    width: 751px;
+    height: 130px;
+    left: 585px;
+    top: 2150px;
+    
+    z-index: 1;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 300px;
+    line-height: 276px;
+
+    color: rgba(0, 0, 0, 0.2);
+}
+.wave-text3 {
+    position: absolute;
+    width: 750px;
+    height: 230px;
+    left: 585px;
+    top: 2800px;
+    z-index: 20;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 300px;
+    line-height: 300px;
+
+    color: rgba(0, 0, 0, 0.05);
+}
+
+.rectangle {
+    position: absolute;
+    width: 174px;
+    height: 62px;
+    left: 1570px;
+    top: 0px;
+    z-index:20 ;
+    background: #DDDED1;
+    border-radius: 15px;
+}
+
+.rectangle-text {
+    position: absolute;
+    width: 139px;
+    height: 10px;
+    left: 1570px;
+    top: -900px;
+    z-index: 20;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 0%;
+    letter-spacing: -0.025em;
+    color: #000000;
+}
+
+.center-1 {
+    background-color: #303030;
+    position: absolute;
+    width: 1920px;
+    height: 800px;
+    left: 0px;
+    top: 967px;
+}
+.text-center {
+    position: absolute;
+    width: 755px;
+    height: 40px;
+    left: 582px;
+    top: 1150px;
+    z-index: 20;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 0%;
+    /* identical to box height, or 0px */
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.25));
+    letter-spacing: -0.025em;
+
+    color: #FFFFFF;
+} 
+/* Box in center */
+.box1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 213px;
+    top: 1242px;
+    z-index: 20;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.25));
+
+    border: 4px solid #FFFFFF;
+    border-radius: 30px;
+}
+.text-1 {
+    position: absolute;
+    width: 400px;
+    height: 29px;
+    left: 152px;
+    top: 1504px;
+    z-index: 20;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.25));
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+.box2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 644px;
+    top: 1242px;
+    z-index: 20;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.25));
+
+    border: 4px solid #FFFFFF;
+    border-radius: 30px;
+}
+.text-2 {
+    position: absolute;
+    width: 420px;
+    height: 29px;
+    left: 573px;
+    top: 1504px;
+    z-index: 20;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.25));
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+.box3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1050px;
+    top: 1242px;
+    z-index: 20;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.25));
+
+    border: 4px solid #FFFFFF;
+    border-radius: 30px;
+}
+.text-3 {
+    position: absolute;
+    width: 240px;
+    height: 29px;
+    left: 1060px;
+    top: 1504px;
+    z-index: 20;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.25));
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+.box4 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1456px;
+    top: 1242px;
+    z-index: 20;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.25));
+
+    border: 4px solid #FFFFFF;
+    border-radius: 30px;
+}
+.text-4 {
+    position: absolute;
+    width: 370px;
+    height: 29px;
+    left: 1408px;
+    top: 1504px;
+    z-index: 20;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.25));
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.wave-center-1 {
+    position: absolute;
+    width: 911px;
+    height: 345px;
+    left: -328px;
+    top: 1216px;
+    z-index: 20;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 300px;
+    line-height: 276px;
+
+    color: rgba(255, 255, 255, 0.05);
+}
+.wave-center-2 {
+    position: absolute;
+    width: 911px;
+    height: 345px;
+    left: 634px;
+    top: 1216px;
+    z-index: 10;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 300px;
+    line-height: 276px;
+
+    color: rgba(255, 255, 255, 0.05);
+}
+.wave-center-3 {
+    position: absolute;
+    width: 300px;
+    height: 345px;
+    left: 1597px;
+    top: 1216px;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 300px;
+    line-height: 276px;
+
+    color: rgba(255, 255, 255, 0.05);
+}
+.line {
+    position: absolute;
+    width: 1800px;
+    height: 0px;
+    left: 60px;
+    top: 3090px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    z-index: 11;
+}
+.text-footer {
+    position: absolute;
+    width: 304px;
+    height: 18px;
+    left: 808px;
+    top: 3100px;
+    z-index: 11;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+
+    color: #000000;
+
+}
+/* block (card,credit,holding,contact) */
+.card-block {
+    background-color: #CBC2BB;
+    position: absolute;
+    width: 1920px;
+    height: 1067px;
+    left: 0px;
+    top: 1767px;
+    background: linear-gradient(180deg, #303030 0%, #CBC2BB 100%);
+}
+.box-for-card {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: 560px;
+    top: 1850px;
+    z-index: 1;
+
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    border: solid white 1px;
+
+}
+.credit {
+    
+    width: 163px;
+    height: 59px;
+    left: 50%;
+    top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+.box-for-holding {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: 1400px;
+    top: 1900px;
+    z-index: 30;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    border: solid white 1px;
+
+}
+
+.holding {
+    width: 163px;
+    height: 59px;
+    left: 50%;
+    top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+    color: white;
+}
+.box-for-cardholder {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: -180px;
+    top: 1900px;
+    z-index: 30;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    border: solid white 1px;
+
+}
+
+.cardholder {
+    width: 163px;
+    height: 59px;
+    left: 50%;
+    top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+    color: white;
+}
+
+
+
+.footer {
+    background-color: #DDDED1;
+    position: absolute;
+    width: 1920px;
+    height: 300px;
+    left: 0px;
+    top: 2834px;
+    box-shadow: 0px 4px 60px black;
+    z-index: 10;
+}
+
+.text-under-wave {
+    position: absolute;
+    width: 230px;
+    height: 18px;
+    left: 211px;
+    top: 2945px;
+    z-index: 11;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+
+    color: #000000;
+}
+
+/* Back to top */
+#back-to-top {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 1;
+    visibility: visible;
+    z-index: 1000;
+    
+}   
+#back-to-top:hover{
+    opacity: 0.5;
+}
+#back-to-top::after {
+    content: "";
+    font-family: 'FontAwesome';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+#back-to-top:hover {
+    cursor:default;
+}
+#back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+@font-face {
+    font-family:"Gobold CUTS";
+    font-style: normal;
+    font-weight: 400;
+  
+    src: local("Gobold CUTS"),
+         url("/fonts/Gobold CUTS.woff2") format("woff2"),
+         url("/fonts/Gobold CUTS.woff") format("woff");
+}
+
+.box-here {
+    box-sizing: border-box;
+    z-index: 50;
+    position: absolute;
+    width: 250px;
+    height: 385px;
+    left: 300px;
+    top: 30px;
+    
+    background: rgba(217, 217, 217, 0);
+    border-width: 0px 3px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 20px;
+
+}
+.box-here-text {
+    position: absolute;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+    left: 25%;
+    top: 50%;
+    color: rgb(192, 191, 191);
+}
